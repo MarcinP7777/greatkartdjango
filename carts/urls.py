@@ -9,5 +9,7 @@ urlpatterns = [
     # Usunięto zakomentowaną linię dla remove_cart_item, zakładam, że nie jest używana
     path('remove_single_cart_item/<int:cart_item_id>/', views.remove_single_cart_item, name='remove_single_cart_item'),
     path('remove_all_cart_items/', views.remove_all_cart_items, name='remove_all_cart_items'),
+    
+  
 
 ]

@@ -53,7 +53,9 @@ $(document).ready(function() {
 
 
 
-
+    setTimeout(function() {
+        $('message').fadeout('slow')
+    }, 4000)
     
 }); 
 // jquery end
